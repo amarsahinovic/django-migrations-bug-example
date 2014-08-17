@@ -1,0 +1,5 @@
+- create barebone django project with 2 apps, articles and galleries
+- create models for those apps and migrate them
+- create a foreign key from one app to another
+- make migrations
+- migrate latest changes - FAILURE
