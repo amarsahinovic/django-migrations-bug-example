@@ -8,3 +8,4 @@ class Gallery(models.Model):
 class GalleryItem(models.Model):
     gallery = models.ForeignKey(Gallery, related_name='gallery_items')
     image = models.CharField(max_length=255)
+    article = models.ForeignKey('articles.Article', related_name='gallery_items', blank=True, null=True)
